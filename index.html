@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#fff8fc" />
+  <title>One Year of Us ✿</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap');
+    :root{--ink:#382942;--muted:#8b778f;--pink:#f4d8e8;--lilac:#e7ddf5;--rose:#d779a7;--purple:#8b6cab;--paper:#fffafc;--line:#f0e5ee;--shadow:0 24px 80px #65456516}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:'DM Sans',sans-serif;min-height:100vh}button,input{font:inherit}button{cursor:pointer}.ambient{position:fixed;inset:0;z-index:-1;overflow:hidden;pointer-events:none;background:radial-gradient(ellipse at 12% 12%,#f5e4f2 0,transparent 34%),radial-gradient(ellipse at 90% 83%,#e9e3fa 0,transparent 38%),#fffafc}.ambient:after{content:'✿';position:absolute;right:9%;top:10%;color:#d9bdd9;font-size:22px;opacity:.7}.screen{display:none;min-height:100vh;padding:32px 22px}.screen.active{display:grid;place-items:center;animation:appear .55s ease both}@keyframes appear{from{opacity:0;transform:translateY(9px)}to{opacity:1;transform:none}}.card{width:min(100%,530px);padding:clamp(32px,7vw,62px);border:1px solid #fff;background:#ffffffbd;border-radius:28px;box-shadow:var(--shadow);text-align:center;backdrop-filter:blur(10px)}.eyebrow{font-size:11px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--purple)}h1,h2,h3,p{margin-top:0}h1,h2,h3{font-family:'Playfair Display',Georgia,serif;font-weight:500}h1{font-size:clamp(38px,8vw,58px);line-height:1.13;letter-spacing:-.035em;margin:19px 0 13px}h2{font-size:clamp(34px,6vw,54px);line-height:1.13;letter-spacing:-.025em;margin:15px 0}.sub{color:var(--muted);line-height:1.8;font-size:15px}.flower{font-size:30px;color:var(--rose);margin-bottom:12px}.actions{display:flex;justify-content:center;align-items:center;gap:12px;margin-top:30px;min-height:52px}.btn{border:0;border-radius:999px;padding:14px 24px;font-weight:700;transition:transform .22s,box-shadow .22s,opacity .22s}.btn:hover{transform:translateY(-2px)}.btn-primary{color:white;background:linear-gradient(120deg,#d87eaa,#9a7bb9);box-shadow:0 8px 20px #bb77a83c}.btn-quiet{background:#f5edf5;color:#67556f}.btn-small{padding:10px 17px;font-size:13px}.no-note{min-height:22px;margin:17px 0 0;color:#9a7595;font-size:13px}.date-wrap{margin:28px auto 0;max-width:290px;text-align:left}.date-wrap label{font-size:12px;font-weight:700;color:#735e7e}.date-wrap input{display:block;width:100%;padding:15px;margin-top:8px;border:1px solid #eadbe9;border-radius:13px;background:#fff;color:var(--ink);outline:none}.date-wrap input:focus{border-color:#b993c6;box-shadow:0 0 0 4px #b993c626}.feedback{min-height:44px;margin:13px 0 0;color:#987695;font-size:13px}.wrong{display:none;align-items:center;justify-content:center;gap:8px}.wrong.show{display:flex;animation:wobble .45s ease}.wrong .blob{font-size:31px;animation:bob .8s ease-in-out infinite alternate}@keyframes wobble{25%{transform:rotate(-4deg)}75%{transform:rotate(4deg)}}@keyframes bob{to{transform:translateY(-5px) rotate(8deg)}}.hint{font-size:12px;color:#a18fa5;margin:0}.home{display:none;min-height:100vh}.home.active{display:block;animation:appear .55s ease both}.nav{height:78px;display:flex;align-items:center;justify-content:space-between;max-width:1120px;padding:0 24px;margin:auto}.brand{font-family:'Playfair Display',serif;font-size:18px}.brand span{color:var(--rose)}.nav-tag{font-size:11px;letter-spacing:.1em;color:var(--muted);text-transform:uppercase}.hero{max-width:1120px;margin:25px auto 90px;padding:clamp(35px,8vw,90px) 28px;display:grid;grid-template-columns:1.12fr .88fr;gap:55px;align-items:center}.hero-copy{padding:0 15px}.hero h1{font-size:clamp(50px,7.5vw,88px);max-width:600px;margin:18px 0}.hero .sub{max-width:470px;font-size:16px}.hero-art{min-height:400px;position:relative;display:grid;place-items:center}.art-orbit{width:min(100%,390px);aspect-ratio:1;border-radius:50%;background:linear-gradient(145deg,#f6ddeb,#e8e1f7);display:grid;place-items:center;position:relative;overflow:hidden}.art-orbit:before,.art-orbit:after{content:'';position:absolute;width:260px;height:340px;border:1px solid #fff9;border-radius:50%;transform:rotate(40deg)}.art-orbit:after{transform:rotate(-40deg)}.heart{font-size:128px;color:#d178a8;text-shadow:0 12px 35px #c56f9b55;z-index:1;animation:pulse 2.5s ease-in-out infinite}@keyframes pulse{50%{transform:scale(1.07)}}.orbit-note{position:absolute;bottom:27px;right:0;padding:13px 17px;background:#fff;border-radius:14px;box-shadow:var(--shadow);font-family:'Playfair Display',serif;font-size:15px;transform:rotate(3deg)}.section{max-width:1050px;margin:0 auto;padding:0 24px 95px}.section-head{text-align:center;margin-bottom:32px}.section-head h2{font-size:42px}.section-head p{color:var(--muted);font-size:14px}.memory-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.memory{min-height:255px;padding:12px;border-radius:20px;background:#fff;border:1px solid var(--line);box-shadow:0 12px 35px #5534540a}.memory-visual{height:170px;border-radius:13px;background:linear-gradient(145deg,#fae3ee,#e8e2f6);display:grid;place-items:center;overflow:hidden;color:#a27ca7;font-size:34px}.memory-visual img,.memory-visual video{width:100%;height:100%;object-fit:cover}.memory h3{font-size:19px;margin:13px 5px 4px}.memory p{font-size:12px;color:var(--muted);margin:0 5px 4px}.add-memory{margin-top:22px;text-align:center}.file-label{display:inline-flex;align-items:center;gap:8px;background:#f2eaf4;color:#705c79;border-radius:999px;padding:12px 17px;font-size:13px;font-weight:700;cursor:pointer;margin:4px}.file-label input{display:none}.letter{max-width:750px;margin:0 auto 100px;padding:0 24px}.letter-card{padding:clamp(28px,6vw,55px);background:#fff;border:1px solid var(--line);border-radius:22px;text-align:center;box-shadow:var(--shadow)}.letter-card .flower{font-size:25px}.letter-card h2{font-size:40px}.letter-card p{max-width:510px;margin:14px auto;color:#7f6b83;line-height:1.9}.footer{text-align:center;padding:0 20px 36px;color:#a58fa8;font-size:12px}.back-link{border:0;background:transparent;color:#9a779c;font-size:12px;margin-top:15px}.toast{position:fixed;bottom:24px;left:50%;transform:translate(-50%,15px);opacity:0;pointer-events:none;background:#49374f;color:white;padding:12px 18px;border-radius:999px;font-size:13px;transition:.25s;white-space:nowrap}.toast.show{opacity:1;transform:translate(-50%,0)}
+    @media(max-width:760px){.hero{grid-template-columns:1fr;gap:5px;margin:16px auto 65px;text-align:center}.hero-copy{padding:0}.hero .sub{margin:0 auto}.hero-art{min-height:310px}.art-orbit{width:min(78vw,330px)}.heart{font-size:105px}.memory-grid{grid-template-columns:1fr}.memory{min-height:230px}.memory-visual{height:180px}.nav{height:66px}.nav-tag{font-size:9px}.section{padding-bottom:70px}}
+    @media(prefers-reduced-motion:reduce){*,*:before,*:after{animation-duration:.01ms!important;animation-iteration-count:1!important;scroll-behavior:auto!important;transition-duration:.01ms!important}}
+    .anniversary-video{display:block;width:100%;height:min(72vh,506px);min-height:280px;border:0;border-radius:14px;background:#2f2535}
+    .video-section{margin-top:-45px}
+    .vinyl-control{position:fixed;top:18px;left:18px;z-index:100;width:82px;height:82px;min-width:82px;min-height:82px;aspect-ratio:1/1;padding:0;border:0;border-radius:50%;clip-path:circle(50% at 50% 50%);overflow:hidden;background:transparent;box-shadow:none;display:none;place-items:center;cursor:pointer}
+    .vinyl-control.visible{display:grid}
+    .vinyl-control img{display:block;width:100%;height:100%;object-fit:cover;object-position:50% 50%;border-radius:0;filter:none}
+    .vinyl-control:focus-visible{outline:3px solid #b58ac2;outline-offset:4px}
+    .vinyl-control.is-playing img{animation:vinyl-spin 4s linear infinite}
+    @keyframes vinyl-spin{to{transform:rotate(360deg)}}
+    @media(max-width:760px){.vinyl-control{top:12px;left:12px;width:68px;height:68px;min-width:68px;min-height:68px}.nav .brand{padding-left:62px}}
+    @media(prefers-reduced-motion:reduce){.vinyl-control.is-playing img{animation-duration:12s!important}}
+    .heart-shower{position:fixed;inset:0;z-index:0;overflow:hidden;pointer-events:none}
+    .heart-drop{position:absolute;top:-8vh;left:var(--heart-x);color:#d779a7;font-size:var(--heart-size);line-height:1;text-shadow:0 3px 14px #d779a72b;opacity:0;animation:heart-fall var(--heart-duration) linear forwards}
+    @keyframes heart-fall{0%{transform:translate3d(0,-3vh,0) rotate(-12deg);opacity:0}12%{opacity:.48}82%{opacity:.38}100%{transform:translate3d(var(--heart-drift),112vh,0) rotate(22deg);opacity:0}}
+    .home>.nav,.home>.hero,.home>.section,.home>.letter,.home>.footer{position:relative;z-index:1}
+    html[data-theme="dark"] .heart-drop{color:#e49fc2;text-shadow:0 3px 14px #e49fc230}
+    @media(prefers-reduced-motion:reduce){.heart-shower{display:none!important}}
+    .theme-toggle{position:fixed;top:20px;right:20px;z-index:120;width:46px;height:46px;border:1px solid #ead8e9;border-radius:50%;display:grid;place-items:center;background:#ffffffdf;color:#72577c;font-size:21px;box-shadow:0 6px 20px #6545651a;backdrop-filter:blur(8px);transition:transform .2s,background .3s,color .3s,border-color .3s}
+    .theme-toggle:hover{transform:translateY(-2px)}
+    .theme-toggle:focus-visible{outline:3px solid #b58ac2;outline-offset:3px}
+    html[data-theme="dark"]{color-scheme:dark;--ink:#f5e9f5;--muted:#c7b0cd;--rose:#e49fc2;--purple:#c1a0db;--paper:#261f30;--line:#4b3b53;--shadow:0 24px 80px #100b193d}
+    html[data-theme="dark"] body{background:var(--paper);color:var(--ink)}
+    html[data-theme="dark"] .ambient{background:radial-gradient(ellipse at 12% 12%,#49334e 0,transparent 36%),radial-gradient(ellipse at 90% 83%,#37304f 0,transparent 40%),#261f30}
+    html[data-theme="dark"] .ambient:after{color:#80658d}
+    html[data-theme="dark"] .card,html[data-theme="dark"] .letter-card{background:#342a3c;border-color:#51405a}
+    html[data-theme="dark"] .memory{background:#342a3c;border-color:#51405a}
+    html[data-theme="dark"] .memory-visual{background:linear-gradient(145deg,#51364d,#403750);color:#d3a5d2}
+    html[data-theme="dark"] .orbit-note{background:#3b2d43;color:var(--ink)}
+    html[data-theme="dark"] .art-orbit{background:linear-gradient(145deg,#51364d,#403750)}
+    html[data-theme="dark"] .art-orbit:before,html[data-theme="dark"] .art-orbit:after{border-color:#ffffff25}
+    html[data-theme="dark"] .date-wrap input{background:#2b2235;color:var(--ink);border-color:#5a4663;color-scheme:dark}
+    html[data-theme="dark"] .btn-quiet{background:#43344c;color:#f0e3f2}
+    html[data-theme="dark"] .letter-card p{color:var(--muted)}
+    html[data-theme="dark"] .footer,html[data-theme="dark"] .no-note,html[data-theme="dark"] .feedback{color:#bba4c2}
+    html[data-theme="dark"] .back-link{color:#d0a9d3}
+    html[data-theme="dark"] .theme-toggle{background:#3b2d43;color:#f2c3dc;border-color:#624d6d;box-shadow:0 6px 20px #100b193d}
+    @media(max-width:760px){.theme-toggle{top:12px;right:12px;width:42px;height:42px}}
+    .hero-art{min-height:0}
+    .reel-frame{width:min(100%,380px);padding:10px;border:1px solid #fff;background:#ffffffbd;border-radius:28px;box-shadow:var(--shadow);position:relative}
+    .hero-reel{display:block;width:100%;aspect-ratio:9/16;height:auto;border:0;border-radius:19px;background:#2f2535}
+    .reel-caption{padding:13px 5px 3px;text-align:center;color:#987695;font-family:'Playfair Display',Georgia,serif;font-size:15px}
+    html[data-theme="dark"] .reel-frame{background:#342a3c;border-color:#51405a}
+    html[data-theme="dark"] .reel-caption{color:#c7b0cd}
+    @media(max-width:760px){.reel-frame{width:min(100%,340px)}}
+    .hero-art{min-height:0}
+    .memory-visual{height:auto;aspect-ratio:4/5}
+    .letter-photo-wrap{position:relative;width:min(100%,560px);aspect-ratio:16/9;overflow:hidden;margin:0 auto 28px;border-radius:18px;box-shadow:0 14px 36px #65456520}
+    .letter-photo{position:absolute;top:50%;left:50%;height:177.7778%;width:auto;max-width:none;object-fit:contain;transform:translate(-50%,-50%) rotate(270deg)}
+    .quiz-card{max-width:760px;margin:0 auto;text-align:left}
+    .question-list{display:grid;gap:17px;margin:28px 0 22px}
+    .question-field label{display:block;margin-bottom:8px;color:var(--ink);font-size:14px;font-weight:600;line-height:1.55}
+    .question-field textarea{display:block;width:100%;min-height:82px;padding:13px 15px;border:1px solid #eadbe9;border-radius:14px;background:#fff;color:var(--ink);font:inherit;font-size:14px;line-height:1.6;resize:vertical;outline:none}
+    .question-field textarea:focus{border-color:#b993c6;box-shadow:0 0 0 4px #b993c626}
+    .email-note{padding-top:16px;border-top:1px solid var(--line);color:var(--muted);font-size:12px;line-height:1.7}
+    .quiz-actions{text-align:center;margin-top:20px}
+    .quiz-card[hidden],.surprise-content[hidden]{display:none!important}
+    .surprise-content{max-width:900px;margin:24px auto 0}
+    .surprise-content h3{margin:4px 0 20px;font-size:30px}
+    html[data-theme="dark"] .question-field textarea{background:#2b2235;color:var(--ink);border-color:#5a4663}
+  </style>
+</head>
+<body>
+  <div class="ambient" aria-hidden="true"></div>
+  <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch to soft dark theme" title="Switch to soft dark theme"><span aria-hidden="true">☾</span></button>
+  <audio id="love-song" preload="none"><source src="song.mp3" type="audio/mpeg" /></audio>
+  <button class="vinyl-control" id="vinyl-toggle" type="button" aria-label="Play song" aria-pressed="false" title="Play song">
+    <img src="vinyl.png" alt="" />
+  </button>
+  <main>
+    <section class="screen active" id="welcome" aria-labelledby="welcome-title">
+      <div class="card"><div class="flower">✿</div><div class="eyebrow">A little question for you</div><h1 id="welcome-title">Do you love me?</h1><p class="sub">There is only one answer I’m hoping for…</p><div class="actions"><button class="btn btn-primary" id="yes">Yes, of course ♡</button><button class="btn btn-quiet" id="no">No</button></div><p class="no-note" id="no-note" aria-live="polite"></p></div>
+    </section>
+    <section class="screen" id="date-screen" aria-labelledby="date-title">
+      <div class="card"><div class="flower">♡</div><div class="eyebrow">Our little piece of history</div><h2 id="date-title">When did you say yes to us?</h2><p class="sub">Enter the date you accepted my love.</p><div class="date-wrap"><label for="answer"></label><input id="answer" type="date" autocomplete="off" /></div><p class="feedback" aria-live="polite"><span id="date-message">I remember it by heart ✿</span><span class="wrong" id="wrong"><span class="blob">🥺</span><span>Hmm… this little goof says try again!</span></span></p><button class="btn btn-primary" id="unlock">Unlock our memories ♡</button><br><button class="back-link" id="go-back">← Go back</button></div>
+    </section>
+    <div class="home" id="home">
+      <div class="heart-shower" id="heart-shower" aria-hidden="true"></div>
+      <nav class="nav"><div class="brand">you <span>♡</span> me</div><div class="nav-tag">One year down · forever to go</div></nav>
+      <header class="hero"><div class="hero-copy"><div class="eyebrow">365 days of choosing you</div><h1>One year of <span style="color:#c777a0">us.</span></h1><p class="sub">A year ago, you said yes and somehow every day since has become my favorite. This little corner of the internet is just for you.</p><button class="btn btn-primary" onclick="document.querySelector('#memories').scrollIntoView({behavior:'smooth'})">Take a walk with me ↓</button></div><div class="hero-art"><div class="reel-frame"><iframe class="hero-reel" src="https://drive.google.com/file/d/1pVVD8HgLGeUPX7jEl9zYRAOyTeKPP9rO/preview" title="Our anniversary reel" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen loading="lazy"></iframe><div class="reel-caption">A little reel of us ♡</div></div></div></header>
+      <section class="section" id="memories"><div class="section-head"><div class="eyebrow">A few favorite snapshots</div><h2>Little things I love</h2><p>A little glimpses of us that make me smile.</p></div><div class="memory-grid" id="memory-grid"><article class="memory"><div class="memory-visual"><img src="IMG_1.jpg" alt="A mirror selfie of us cuddled together on the sofa" loading="lazy"></div><h3>Right where I belong</h3><p>A quiet moment beside you is always my favorite.</p></article><article class="memory"><div class="memory-visual"><img src="IMG_2.JPG.jpeg" alt="The two of us in a glowing mirror" loading="lazy"></div><h3>A little glow, a lot of us</h3><p>Somewhere between the lights and the laughter.</p></article><article class="memory"><div class="memory-visual"><img src="IMG_3.JPG.jpeg" alt="The two of us dressed up for a night out" loading="lazy"></div><h3>All dressed up, still my favorite</h3><p>A lovely night made even better beside you.</p></article></div></section>
+      <section class="letter"><div class="letter-card"><div class="letter-photo-wrap"><img class="letter-photo" src="IMG_long.JPG.jpeg" alt="A favorite photo of us together" loading="lazy"></div><div class="flower">✿</div><div class="eyebrow">For you, with all my heart</div><h2>To my person</h2><p>Thank you for making ordinary days feel soft and bright. Thank you for every laugh, every little check-in, every time you’ve made me feel at home. I’d choose you in every version of this story.</p><p>Happy first anniversary, my love. Here’s to all the little moments still waiting for us.</p><p style="font-family:'Playfair Display',serif;color:#b26f98;font-size:20px;margin-top:24px">Always yours ♡</p></div></section>
+      <section class="letter video-section" id="surprise"><div class="section-head"><div class="eyebrow">One last little thing</div><h2>A surprise for you</h2><p>Answer five little questions first, then my message is all yours.</p></div>
+        <form class="letter-card quiz-card" id="surprise-form">
+          <div class="question-list">
+            <div class="question-field"><label for="answer-1">1. If you could relive one moment with me, which would you choose?</label><textarea id="answer-1" name="relive" maxlength="500" required placeholder="Write whatever comes to mind…"></textarea></div>
+            <div class="question-field"><label for="answer-2">2. One thing about me that should never change is…</label><textarea id="answer-2" name="never-change" maxlength="500" required placeholder="Tell me the little thing you love…"></textarea></div>
+            <div class="question-field"><label for="answer-3">3. If you could pause time with me, which moment would you choose?</label><textarea id="answer-3" name="pause-time" maxlength="500" required placeholder="Pick a moment to keep forever…"></textarea></div>
+            <div class="question-field"><label for="answer-4">4. One memory with me that always makes you smile is…</label><textarea id="answer-4" name="smile-memory" maxlength="500" required placeholder="I hope it makes you smile right now too…"></textarea></div>
+            <div class="question-field"><label for="answer-5">5. One thing you’d like me to change is…</label><textarea id="answer-5" name="change" maxlength="500" required placeholder="Be honest with me ♡"></textarea></div>
+          </div>
+          <div class="quiz-actions"><button class="btn btn-primary" id="send-answers" type="submit">Send my answers & unlock the surprise ♡</button></div>
+        </form>
+        <div class="letter-card surprise-content" id="surprise-content" hidden><div class="flower">♡</div><div class="eyebrow">You found your surprise</div><h3>Your message is unlocked</h3><iframe class="anniversary-video" id="conclusion-video" data-src="https://drive.google.com/file/d/1fwgYEAl86UPMZcjurAf2GTq5geBlV_wx/preview" title="A sweet anniversary video message" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe></div>
+      </section>
+      <footer class="footer">Made with so much love, just for you ·<span style="color:#d779a7">♡</span></footer>
+    </div>
+  </main><div class="toast" id="toast" role="status"></div>
+  <script>
+    // PERSONALIZE THIS: set the date she accepted your love (YYYY-MM-DD).
+    const OUR_DATE = '2025-11-12';
+    const welcome = document.querySelector('#welcome'), dateScreen = document.querySelector('#date-screen'), home = document.querySelector('#home');
+    const yes = document.querySelector('#yes'), no = document.querySelector('#no'), note = document.querySelector('#no-note');
+    let noClicks = 0;
+    yes.addEventListener('click', () => { welcome.classList.remove('active'); dateScreen.classList.add('active'); document.querySelector('#answer').focus(); });
+    no.addEventListener('click', () => {
+      noClicks++;
+      if (noClicks >= 3) { no.style.transform = 'scale(0)'; no.style.opacity = '0'; no.style.pointerEvents = 'none'; note.textContent = 'The “No” ran away… I knew it was a “Yes” ♡'; }
+      else { no.style.transform = `scale(${1 - noClicks * .25})`; note.textContent = noClicks === 1 ? 'Are you sure? 🥺' : 'One more chance to choose wisely…'; }
+    });
+    document.querySelector('#go-back').addEventListener('click', () => { dateScreen.classList.remove('active'); welcome.classList.add('active'); });
+    document.querySelector('#unlock').addEventListener('click', checkDate);
+    document.querySelector('#answer').addEventListener('keydown', e => { if (e.key === 'Enter') checkDate(); });
+    function checkDate() {
+      const input = document.querySelector('#answer');
+      if (input.value === OUR_DATE) { dateScreen.classList.remove('active'); home.classList.add('active'); vinylToggle.classList.add('visible'); window.scrollTo(0,0); launchHeartShower(); }
+      else { document.querySelector('#date-message').style.display = 'none'; document.querySelector('#wrong').classList.add('show'); input.animate([{transform:'translateX(-5px)'},{transform:'translateX(5px)'},{transform:'translateX(0)'}],{duration:260}); }
+    }
+    function launchHeartShower() {
+      const shower = document.querySelector('#heart-shower');
+      if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+      const symbols = ['♡', '♡', '♥', '♡', '♡', '♥', '♡', '♡'];
+      let nextHeart = 0;
+      let interval;
+      const dropHeart = () => {
+        const heart = document.createElement('span');
+        heart.className = 'heart-drop';
+        heart.textContent = symbols[nextHeart++ % symbols.length];
+        heart.style.setProperty('--heart-x', `${Math.random() * 96}%`);
+        heart.style.setProperty('--heart-size', `${11 + Math.random() * 9}px`);
+        heart.style.setProperty('--heart-duration', `${7 + Math.random() * 2}s`);
+        heart.style.setProperty('--heart-drift', `${Math.round(Math.random() * 64 - 32)}px`);
+        heart.addEventListener('animationend', () => heart.remove(), {once:true});
+        shower.appendChild(heart);
+      };
+      dropHeart();
+      interval = window.setInterval(dropHeart, 500);
+    }
+    document.querySelector('#answer').addEventListener('input', () => { document.querySelector('#wrong').classList.remove('show'); document.querySelector('#date-message').style.display = ''; });
+    const vinylToggle = document.querySelector('#vinyl-toggle');
+    const loveSong = document.querySelector('#love-song');
+    function setMusicState(isPlaying) {
+      vinylToggle.classList.toggle('is-playing', isPlaying);
+      vinylToggle.setAttribute('aria-pressed', String(isPlaying));
+      vinylToggle.setAttribute('aria-label', isPlaying ? 'Pause song' : 'Play song');
+      vinylToggle.title = isPlaying ? 'Pause song' : 'Play song';
+    }
+    vinylToggle.addEventListener('click', async () => {
+      if (!loveSong.paused) { loveSong.pause(); return; }
+      try { await loveSong.play(); }
+      catch { vinylToggle.title = 'Could not play song.mp3. Keep it beside index.html.'; }
+    });
+    loveSong.addEventListener('play', () => setMusicState(true));
+    loveSong.addEventListener('pause', () => setMusicState(false));
+    loveSong.addEventListener('ended', () => setMusicState(false));
+    const surpriseForm = document.querySelector('#surprise-form');
+    const surpriseContent = document.querySelector('#surprise-content');
+    surpriseForm.addEventListener('submit', event => {
+      event.preventDefault();
+      if (!surpriseForm.reportValidity()) return;
+      const answers = new FormData(surpriseForm);
+      const prompts = [
+        ['If you could relive one moment with me, which would you choose?', 'relive'],
+        ['One thing about me that should never change is…', 'never-change'],
+        ['If you could pause time with me, which moment would you choose?', 'pause-time'],
+        ['One memory with me that always makes you smile is…', 'smile-memory'],
+        ['One thing you’d like me to change is…', 'change']
+      ];
+      const body = prompts.map(([question, name], index) => `${index + 1}. ${question}\n${answers.get(name)}`).join('\n\n');
+      const gmailCompose = new URL('https://mail.google.com/mail/');
+      gmailCompose.search = new URLSearchParams({
+        view: 'cm',
+        fs: '1',
+        to: 'mayankraut28@gmail.com',
+        su: 'Our anniversary questions ♡',
+        body
+      }).toString();
+      surpriseForm.hidden = true;
+      surpriseContent.hidden = false;
+      document.querySelector('#conclusion-video').src = document.querySelector('#conclusion-video').dataset.src;
+      surpriseContent.scrollIntoView({behavior:'smooth', block:'center'});
+      window.open(gmailCompose.toString(), '_blank', 'noopener,noreferrer');
+    });
+    const themeToggle = document.querySelector('#theme-toggle');
+    const themeIcon = themeToggle.querySelector('span');
+    try { if (localStorage.getItem('anniversary-theme') === 'dark') document.documentElement.dataset.theme = 'dark'; } catch {}
+    function updateThemeToggle() {
+      const isDark = document.documentElement.dataset.theme === 'dark';
+      themeIcon.textContent = isDark ? '☀' : '☾';
+      themeToggle.setAttribute('aria-label', isDark ? 'Switch to light theme' : 'Switch to soft dark theme');
+      themeToggle.title = isDark ? 'Switch to light theme' : 'Switch to soft dark theme';
+      document.querySelector('meta[name="theme-color"]').content = isDark ? '#261f30' : '#fff8fc';
+    }
+    updateThemeToggle();
+    themeToggle.addEventListener('click', () => {
+      const nextTheme = document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark';
+      if (nextTheme === 'dark') document.documentElement.dataset.theme = 'dark';
+      else delete document.documentElement.dataset.theme;
+      try { localStorage.setItem('anniversary-theme', nextTheme); } catch {}
+      updateThemeToggle();
+    });
+  </script>
+</body>
+</html>
